@@ -1,0 +1,11 @@
+customer_id,full_name,email,phone,date_of_birth,address,expected_status
+C001,Tran Van Chuan,chuan.tran@email.com,0901234567,1990-05-15,District 1 HCMC,VALID
+,Le Thi Thieu,thieu@email.com,0911222333,1992-10-20,Hanoi,INVALID
+C003,Nguyen Sai Email,khong_co_email,0988777666,1985-02-28,Da Nang,INVALID
+C004,Pham Sai Phone,pham@email.com,090-ABC-1234,1988-11-11,Can Tho,INVALID
+C005,Vu Ngay Sai,vu@email.com,0933444555,31/02/1995,Hai Phong,NEEDS_REVIEW
+C006,hoang van format,hoang@email.com,0944555666,1999-09-09,hcmc,NEEDS_REVIEW
+C007,ngo.email@test.com,Ngo Semantic,0955666777,1991-01-01,Hue,NEEDS_REVIEW
+C008,Tran Van Chuan,chuan.tran@email.com,0901234567,1990-05-15,District 1 HCMC,DUPLICATE
+C009,,bad-email,09abc,invalid-date,Nowhere,INVALID
+C010,Doan Tuong Lai,doan@email.com,0966777888,2030-01-01,Hanoi,NEEDS_REVIEW

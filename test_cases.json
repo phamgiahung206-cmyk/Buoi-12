@@ -1,0 +1,12 @@
+[
+  {"id": "TC01", "expected": "VALID", "reason": "Perfect record"},
+  {"id": "TC02", "expected": "INVALID", "reason": "Missing customer_id"},
+  {"id": "TC03", "expected": "INVALID", "reason": "Unfixable email"},
+  {"id": "TC04", "expected": "INVALID", "reason": "Unfixable phone"},
+  {"id": "TC05", "expected": "NEEDS_REVIEW", "reason": "Impossible calendar date"},
+  {"id": "TC06", "expected": "NEEDS_REVIEW", "reason": "Lowercase formatting"},
+  {"id": "TC07", "expected": "NEEDS_REVIEW", "reason": "Swapped name and email fields"},
+  {"id": "TC08", "expected": "DUPLICATE", "reason": "Exact match with TC01"},
+  {"id": "TC09", "expected": "INVALID", "reason": "Multiple unfixable errors including missing name"},
+  {"id": "TC10", "expected": "NEEDS_REVIEW", "reason": "Future date of birth logic error"}
+]
